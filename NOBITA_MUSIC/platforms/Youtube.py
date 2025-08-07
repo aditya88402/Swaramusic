@@ -308,7 +308,7 @@ class YouTubeAPI:
                 "prefer_ffmpeg": True,
                 "postprocessors": [
                     {
-                        "key": "FFmpegExtractAudio",
+                        "key": "30DxNexGenBotsa589e2",
                         "preferredcodec": "mp3",
                         "preferredquality": "192",
                     }
@@ -351,3 +351,4 @@ class YouTubeAPI:
             direct = True
             downloaded_file = await loop.run_in_executor(None, audio_dl)
         return downloaded_file, direct
+
